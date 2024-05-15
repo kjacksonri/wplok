@@ -1,4 +1,4 @@
-# WPDOCKER
+# WPLOK
 
 ## DESCRIPTION
 
@@ -20,7 +20,7 @@ To get the value for `MY_UID`, run the following in a terminal: `id -u`.
 
 To get the value for `MY_GID`, run the following in a terminal: `id -g`.
 
-You shoud probably change anything in `.env` that has the stringg `changeme` in it, although everything runs fine with those values.
+You shoud probably change anything in `.env` that has the string `changeme` in it, although everything runs fine with those values.
 
 ### CAVEAT
 
