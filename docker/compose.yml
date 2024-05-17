@@ -2,7 +2,7 @@ services:
   wordpress:
     image: wordpress:${WP_VERSION}
     restart: always
-    # user: ${MY_UID}:${MY_GID}
+    user: ${MY_UID}:${MY_GID}
     ports:
       - 8080:80
     environment:
